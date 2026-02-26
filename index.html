@@ -1,41 +1,80 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HerProx — Сайт выключен</title>
-<style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #111;
-    color: #eee;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт временно выключен</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f0f0f0, #d9d9d9);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            flex-direction: column;
+        }
 
-h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
+        img {
+            max-width: 450px;
+            width: 80%;
+            margin-bottom: 40px;
+            filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.4));
+            transition: transform 0.5s ease;
+        }
 
-p {
-    font-size: 18px;
-    color: #ccc;
-    line-height: 1.5;
-}
-</style>
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            color: #ff9900;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+            animation: pulse 2s infinite;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        a {
+            margin-top: 30px;
+            padding: 12px 25px;
+            background-color: #ff9900;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background-color: #ff7700;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.7; }
+            100% { opacity: 1; }
+        }
+
+    </style>
 </head>
 <body>
 
-<div>
-    <img src="https://i.ibb.co/nNr5KmJV/minecraft-title-2.png">
-    <p>Сайт временно выключен.<br>
-    Обратитесь к команде проекта по любым вопросам.</p>
-</div>
+    <img src="https://i.ibb.co/hR9fNkNk/minecraft-title-5.png" alt="Логотип">
+
+    <h1>Сайт временно выключен</h1>
+    <p>Обратитесь к команде проекта по любым вопросам.<br>Мы скоро всё включим!</p>
+
+    <a href="mailto:nisaev398@gmail.com">Связаться с нами</a>
 
 </body>
 </html>
